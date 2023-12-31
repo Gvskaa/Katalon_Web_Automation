@@ -1,7 +1,7 @@
 ## Katalon Web Automation
 <p>
   <b>
-    Katalon Web Automation merupakan sebuah mini project / tugas untuk membuat test web automation 
+    Katalon Web Automation merupakan sebuah mini project / tugas untuk membuat skenario test automation sign up, sign in dan purchase item  
     pada website https://www.demoblaze.com/index.html 
   </b>
 </p>

@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+purchase_item_demo_blaze,Chrome 120.0.6099.130,,,2023-12-31 23:24:06,2023-12-31 23:24:42,36.654s,PASSED
+,,,,,,,
+Test Cases/Payment/purchase_item,Chrome 120.0.6099.130,,,2023-12-31 23:24:07,2023-12-31 23:24:42,35.009s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:24:10,2023-12-31 23:24:20,9.914s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.6099.130,,,2023-12-31 23:24:20,2023-12-31 23:24:23,2.681s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_cart""))",Chrome 120.0.6099.130,,,2023-12-31 23:24:23,2023-12-31 23:24:27,4.318s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_place_order""))",Chrome 120.0.6099.130,,,2023-12-31 23:24:27,2023-12-31 23:24:28,0.718s,PASSED
+"setText(findTestObject(""purchase_item/purchase_item_page/field_name""), name)",Chrome 120.0.6099.130,,,2023-12-31 23:24:28,2023-12-31 23:24:30,2.360s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_country""), country)",Chrome 120.0.6099.130,,,2023-12-31 23:24:30,2023-12-31 23:24:31,0.891s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_city""), city)",Chrome 120.0.6099.130,,,2023-12-31 23:24:31,2023-12-31 23:24:32,1.023s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_credit_card""), credit_card)",Chrome 120.0.6099.130,,,2023-12-31 23:24:32,2023-12-31 23:24:34,1.913s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_month""), month)",Chrome 120.0.6099.130,,,2023-12-31 23:24:34,2023-12-31 23:24:36,1.924s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_year""), year)",Chrome 120.0.6099.130,,,2023-12-31 23:24:36,2023-12-31 23:24:37,1.733s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_purchase""))",Chrome 120.0.6099.130,,,2023-12-31 23:24:37,2023-12-31 23:24:38,0.951s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/title_thank_you_for_your_purchase""))",Chrome 120.0.6099.130,,,2023-12-31 23:24:38,2023-12-31 23:24:39,0.915s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_ok""))",Chrome 120.0.6099.130,,,2023-12-31 23:24:39,2023-12-31 23:24:41,2.126s,PASSED
+closeBrowser(),Chrome 120.0.6099.130,,,2023-12-31 23:24:41,2023-12-31 23:24:42,0.842s,PASSED

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+purchase_item_demo_blaze,Chrome 120.0.6099.130,,,2023-12-31 23:20:42,2023-12-31 23:21:40,57.868s,FAILED
+,,,,,,,
+Test Cases/Payment/purchase_item,Chrome 120.0.6099.130,,,2023-12-31 23:21:26,2023-12-31 23:21:40,13.711s,FAILED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:21:26,2023-12-31 23:21:29,2.761s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.6099.130,,,2023-12-31 23:21:29,2023-12-31 23:21:33,4.626s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_cart""))",Chrome 120.0.6099.130,,,2023-12-31 23:21:33,2023-12-31 23:21:38,4.923s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_place_order""))",Chrome 120.0.6099.130,,,2023-12-31 23:21:38,2023-12-31 23:21:39,0.663s,PASSED
+"setText(findTestObject(""purchase_item/purchase_item_page/field_name""), name)",Chrome 120.0.6099.130,,,2023-12-31 23:21:39,2023-12-31 23:21:40,0.668s,FAILED

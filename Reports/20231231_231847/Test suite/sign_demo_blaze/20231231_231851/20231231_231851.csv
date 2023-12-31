@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sign_demo_blaze,Chrome 120.0.6099.130,,,2023-12-31 23:19:13,2023-12-31 23:20:24,1m - 11.159s,PASSED
+,,,,,,,
+Test Cases/sign_up/01_sign_up,Chrome 120.0.6099.130,,,2023-12-31 23:19:15,2023-12-31 23:19:57,42.178s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:19:19,2023-12-31 23:19:30,11.570s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.6099.130,,,2023-12-31 23:19:30,2023-12-31 23:19:49,18.281s,PASSED
+"click(findTestObject(""Object Repository/sign_up/sign_up_page/btn_signUp1""))",Chrome 120.0.6099.130,,,2023-12-31 23:19:49,2023-12-31 23:19:50,1.746s,PASSED
+"setText(findTestObject(""Object Repository/sign_up/sign_up_page/field_username""), username)",Chrome 120.0.6099.130,,,2023-12-31 23:19:50,2023-12-31 23:19:53,3.074s,PASSED
+"setText(findTestObject(""Object Repository/sign_up/sign_up_page/field_password""), password)",Chrome 120.0.6099.130,,,2023-12-31 23:19:53,2023-12-31 23:19:54,0.989s,PASSED
+"click(findTestObject(""Object Repository/sign_up/sign_up_page/btn_SignUp2""))",Chrome 120.0.6099.130,,,2023-12-31 23:19:54,2023-12-31 23:19:55,0.688s,PASSED
+waitForAlert(0),Chrome 120.0.6099.130,,,2023-12-31 23:19:55,2023-12-31 23:19:56,1.308s,PASSED
+verifyAlertPresent(0),Chrome 120.0.6099.130,,,2023-12-31 23:19:56,2023-12-31 23:19:56,0.125s,PASSED
+closeBrowser(),Chrome 120.0.6099.130,,,2023-12-31 23:19:56,2023-12-31 23:19:57,0.946s,PASSED
+,,,,,,,
+Test Cases/sign_in/01_sign_in,Chrome 120.0.6099.130,,,2023-12-31 23:19:57,2023-12-31 23:20:24,26.709s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:20:00,2023-12-31 23:20:03,2.694s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html#"")",Chrome 120.0.6099.130,,,2023-12-31 23:20:03,2023-12-31 23:20:19,15.771s,PASSED
+"click(findTestObject(""Object Repository/sign_in/sign_in_page/btn_sign_in""))",Chrome 120.0.6099.130,,,2023-12-31 23:20:19,2023-12-31 23:20:19,0.885s,PASSED
+"setText(findTestObject(""Object Repository/sign_in/sign_in_page/field_username""), username)",Chrome 120.0.6099.130,,,2023-12-31 23:20:19,2023-12-31 23:20:21,1.269s,PASSED
+"setText(findTestObject(""Object Repository/sign_in/sign_in_page/field_password""), password)",Chrome 120.0.6099.130,,,2023-12-31 23:20:21,2023-12-31 23:20:22,0.900s,PASSED
+"click(findTestObject(""Object Repository/sign_in/sign_in_page/button_submit_sign_in""))",Chrome 120.0.6099.130,,,2023-12-31 23:20:22,2023-12-31 23:20:22,0.679s,PASSED
+waitForAlert(0),Chrome 120.0.6099.130,,,2023-12-31 23:20:22,2023-12-31 23:20:23,1.100s,PASSED
+verifyAlertPresent(0),Chrome 120.0.6099.130,,,2023-12-31 23:20:23,2023-12-31 23:20:23,0.038s,PASSED
+closeBrowser(),Chrome 120.0.6099.130,,,2023-12-31 23:20:23,2023-12-31 23:20:24,0.709s,PASSED

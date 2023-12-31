@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+test_demo_blaze,Chrome 120.0.6099.130,,,2023-12-31 23:07:48,2023-12-31 23:09:13,1m - 25.322s,FAILED
+,,,,,,,
+Test Cases/sign_up/01_sign_up,Chrome 120.0.6099.130,,,2023-12-31 23:07:50,2023-12-31 23:08:14,24.635s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:07:52,2023-12-31 23:08:01,9.246s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.6099.130,,,2023-12-31 23:08:01,2023-12-31 23:08:07,5.586s,PASSED
+"click(findTestObject(""Object Repository/sign_up/sign_up_page/btn_signUp1""))",Chrome 120.0.6099.130,,,2023-12-31 23:08:07,2023-12-31 23:08:08,1.179s,PASSED
+"setText(findTestObject(""Object Repository/sign_up/sign_up_page/field_username""), username)",Chrome 120.0.6099.130,,,2023-12-31 23:08:08,2023-12-31 23:08:10,2.424s,PASSED
+"setText(findTestObject(""Object Repository/sign_up/sign_up_page/field_password""), password)",Chrome 120.0.6099.130,,,2023-12-31 23:08:10,2023-12-31 23:08:11,0.874s,PASSED
+"click(findTestObject(""Object Repository/sign_up/sign_up_page/btn_SignUp2""))",Chrome 120.0.6099.130,,,2023-12-31 23:08:11,2023-12-31 23:08:12,0.686s,PASSED
+waitForAlert(0),Chrome 120.0.6099.130,,,2023-12-31 23:08:12,2023-12-31 23:08:13,1.211s,PASSED
+verifyAlertPresent(0),Chrome 120.0.6099.130,,,2023-12-31 23:08:13,2023-12-31 23:08:13,0.082s,PASSED
+closeBrowser(),Chrome 120.0.6099.130,,,2023-12-31 23:08:13,2023-12-31 23:08:14,0.828s,PASSED
+,,,,,,,
+Test Cases/sign_in/01_sign_in,Chrome 120.0.6099.130,,,2023-12-31 23:08:14,2023-12-31 23:08:25,10.782s,PASSED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:08:16,2023-12-31 23:08:18,1.975s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html#"")",Chrome 120.0.6099.130,,,2023-12-31 23:08:18,2023-12-31 23:08:20,2.224s,PASSED
+"click(findTestObject(""Object Repository/sign_in/sign_in_page/btn_sign_in""))",Chrome 120.0.6099.130,,,2023-12-31 23:08:20,2023-12-31 23:08:21,0.719s,PASSED
+"setText(findTestObject(""Object Repository/sign_in/sign_in_page/field_username""), username)",Chrome 120.0.6099.130,,,2023-12-31 23:08:21,2023-12-31 23:08:22,1.150s,PASSED
+"setText(findTestObject(""Object Repository/sign_in/sign_in_page/field_password""), password)",Chrome 120.0.6099.130,,,2023-12-31 23:08:22,2023-12-31 23:08:23,0.872s,PASSED
+"click(findTestObject(""Object Repository/sign_in/sign_in_page/button_submit_sign_in""))",Chrome 120.0.6099.130,,,2023-12-31 23:08:23,2023-12-31 23:08:24,0.696s,PASSED
+waitForAlert(0),Chrome 120.0.6099.130,,,2023-12-31 23:08:24,2023-12-31 23:08:24,0.578s,PASSED
+verifyAlertPresent(0),Chrome 120.0.6099.130,,,2023-12-31 23:08:24,2023-12-31 23:08:24,0.031s,PASSED
+closeBrowser(),Chrome 120.0.6099.130,,,2023-12-31 23:08:24,2023-12-31 23:08:25,0.704s,PASSED
+,,,,,,,
+Test Cases/Payment/purchase_item,Chrome 120.0.6099.130,,,2023-12-31 23:09:02,2023-12-31 23:09:13,10.673s,FAILED
+"openBrowser("""")",Chrome 120.0.6099.130,,,2023-12-31 23:09:03,2023-12-31 23:09:05,2.675s,PASSED
+"navigateToUrl(""https://www.demoblaze.com/index.html"")",Chrome 120.0.6099.130,,,2023-12-31 23:09:05,2023-12-31 23:09:10,4.323s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_cart""))",Chrome 120.0.6099.130,,,2023-12-31 23:09:10,2023-12-31 23:09:12,2.048s,PASSED
+"click(findTestObject(""Object Repository/purchase_item/purchase_item_page/btn_place_order""))",Chrome 120.0.6099.130,,,2023-12-31 23:09:12,2023-12-31 23:09:12,0.745s,PASSED
+"setText(findTestObject(""Object Repository/purchase_item/purchase_item_page/field_name""), name)",Chrome 120.0.6099.130,,,2023-12-31 23:09:12,2023-12-31 23:09:13,0.812s,FAILED
